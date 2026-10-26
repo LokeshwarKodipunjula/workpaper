@@ -1,0 +1,9 @@
+[project]
+name = "miraflores-workpaper"
+version = "0.1.0"
+description = "Web-native tax workpaper: immutable packet, append-only event log, provenance graph, independent checks."
+authors = [{ name = "Lokeshwar Kodipunjula", email = "kodipunjulaloki@gmail.com" }]
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
